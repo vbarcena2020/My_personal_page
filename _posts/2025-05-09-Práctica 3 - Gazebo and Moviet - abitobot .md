@@ -41,7 +41,7 @@ Todo este gran cambio en el esfuerzo del brazo se debe al peso añadido del cubo
 
 
 <p align="center">
-  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/pose-time.png?raw=true" width="50.0%">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/pose-time.png?raw=true" width="50%">
 </p>
 
 
