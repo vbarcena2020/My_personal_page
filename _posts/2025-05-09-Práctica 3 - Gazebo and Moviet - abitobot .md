@@ -17,6 +17,8 @@ tags:
 
 En este post voy a explicar los datos obtenidos de la simulación e implementación de mi robot "Abitobot" en Gazebo usando ROS2 jazzy y Moveit realizando un pick and place:
 
+
+Si alguna de las imagenes no funciona se pueden ver en el siguiente [enlace](https://github.com/vbarcena2020/abitobot/tree/main/images).
 ---
 
 # **Gráficas Obtenidas** 
