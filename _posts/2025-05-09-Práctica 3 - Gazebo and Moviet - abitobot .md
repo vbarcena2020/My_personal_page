@@ -23,10 +23,42 @@ En este post voy a explicar los datos obtenidos de la simulación e implementaci
 
 ## Gasto parcial - Tiempo
 
+<p align="center">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/effort-time.png?raw=true" width="50%">
+</p>
+
+En cuanto al gasto parcial frente al tiempo de los joints involucrados en la cinematica inversa se puede apreciar que:
+
+- Al comienzo el gasto es minimo hasta los casi 40 segundos debido a que en ese periodo el robot solo se encuentra aproximandose al cubo por lo tanto el unico gasto que se aprecia es el esfuerzo por no moverse los joints durante el desplazamiento.
+
+- Luego se aprecia un gran esfuerzo producido por el movimiento y levantamiento del cubo.
+
+- Por ultimo se aprecia un mayor esfuerzo aun cuando el brazo baja el cubo para dejarlo. En cuanto lo deja el esfuerzo vuelve a ser casi minimo.
+
+Todo este gran cambio en el esfuerzo del brazo se debe al peso añadido del cubo. Este porvoca que se deba hacer más fuerza para llegar a las poses requeridas.
+
 ## Posición ruedas Joint_States - Tiempo
 
+
+<p align="center">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/pose-time.png?raw=true" width="50.0%">
+</p>
+
+
+En cuanto a la posición de las ruedas del robot frente al tiempo se puede apreciar que:
+
+- Las ruedas se desplazan hasta que llegan a la posición frente a la caja a los casi 20 segundos y se mantienen en dicha posición hasta que se detiene el proceso debido a que no se mueve más el robot.
+
 ## Aceleracion Imu - Tiempo
-    
+
+<p align="center">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/acceleration-time.png?raw=true" width="50%">
+</p>
+
+En cuanto a la aceleración frente al tiempo de los datos obtenidos de la Imu se puede apreciar que:
+
+- Solo hay aceleración linear desde que el robot empieza a andar hasta que este procede a frenar frente al cubo a los casi 20 segundos.
+
 # **Repositorio**
 
 En el siguiente [repositorio](https://github.com/vbarcena2020/abitobot) se encuentra todo el paquete de ROS2 del robot Abitobot. En este se definen los URDF del robot, los launchers y todo lo utilizado para la realización de la práctica.
