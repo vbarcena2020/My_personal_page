@@ -26,7 +26,7 @@ Si alguna de las imagenes no funciona se pueden ver en el siguiente [enlace](htt
 ## Gasto parcial - Tiempo
 
 <p align="center">
-  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/effort-time.png?raw=true" width="50%">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/effort-time.png?raw=true" alt="effort-time.png">
 </p>
 
 En cuanto al gasto parcial frente al tiempo de los joints involucrados en la cinematica inversa se puede apreciar que:
@@ -43,23 +43,31 @@ Todo este gran cambio en el esfuerzo del brazo se debe al peso añadido del cubo
 
 
 <p align="center">
-  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/pose-time.png?raw=true" width="50%">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/pose-time.png?raw=true" alt="pose-time.png">
 </p>
 
 
-En cuanto a la posición de las ruedas del robot frente al tiempo se puede apreciar que:
+Estas gráficas muestran la posición angular de las ruedas del robot frente al tiempo donde se puede apreciar que:
 
-- Las ruedas se desplazan hasta que llegan a la posición frente a la caja a los casi 20 segundos y se mantienen en dicha posición hasta que se detiene el proceso debido a que no se mueve más el robot.
+- Entre 0 y 20 segundos aproximadamente, todas las ruedas presentan un cambio significativo en su posición, siendo las ruedas izquierdas aumentan su posición y las ruedas derechas disminuyen su posición.
+
+- Esto sugiere que se ha realizado un movimiento hacia adelante en línea recta, donde las ruedas del lado izquierdo giran en un sentido y las del derecho en el opuesto.
+
+- A partir de 20 segundos aproximadamente, las curvas se estabilizan, indicando que el robot se detuvo y procedió a realizar la manipulación de los cubos.
+
 
 ## Aceleracion Imu - Tiempo
 
 <p align="center">
-  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/acceleration-time.png?raw=true" width="50%">
+  <img src="https://github.com/vbarcena2020/My_personal_page/blob/master/assets/images/acceleration-time.png?raw=true" alt="acceleration-time.png">
 </p>
 
-En cuanto a la aceleración frente al tiempo de los datos obtenidos de la Imu se puede apreciar que:
+Esta gráfica representa la aceleración lineal en el eje X captada por la unidad de medición inercial (IMU) del robot a lo largo del tiempo donde se puede observar que:
 
-- Solo hay aceleración linear desde que el robot empieza a andar hasta que este procede a frenar frente al cubo a los casi 20 segundos.
+- Hay grandes variaciones al principio de la manipulación de los 0 a 20 segundos, indicando que el robot estuvo acelerando, frenando o corrigiendo su trayectoria mientras realizaba el movimiento de las ruedas para aproximarse a los cubos.
+
+- Luego, la aceleración se estabiliza cerca de cero, lo cual es coherente ya que el robot deja de desplazarse cuando llega a los cubos a los aproximados 20 segundos y procede a realizar la manipulación de los cubos.
+
 
 # **Repositorio**
 
